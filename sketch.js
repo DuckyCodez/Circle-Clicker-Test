@@ -67,6 +67,7 @@ function setup(){
 	player.color = 'red';
 	player.x = 0;
 	player.y = 0;
+	drawSprites();
 }
 
 function draw(){
