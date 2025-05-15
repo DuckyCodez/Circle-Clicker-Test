@@ -61,6 +61,10 @@ function setup(){
 	initGame();
 	playerSound.setVolume(0.05);
 	theVoice = new p5.Speech(27); // new P5.Speech object
+	//  --  Player  --  \\
+	player = new Sprite();
+	player.diameter = 20;
+	player.color = 'red';
 }
 
 function draw(){
