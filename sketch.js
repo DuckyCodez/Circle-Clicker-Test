@@ -63,8 +63,10 @@ function setup(){
 	theVoice = new p5.Speech(27); // new P5.Speech object
 	//  --  Player  --  \\
 	player = new Sprite();
-	player.diameter = 20;
+	player.diameter = 400;
 	player.color = 'red';
+	player.x = 0;
+	player.y = 0;
 }
 
 function draw(){
